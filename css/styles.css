@@ -1,0 +1,14 @@
+#ingredients__list{
+  background-color: black;
+  background-image: url(/img/list-bg.png);
+}
+
+body{
+  width: 900px;
+ margin-left: 178.5px;
+}
+
+#line__break__top {
+  background-color: black;
+  background-image: url(/img/hr-img.png);
+}
