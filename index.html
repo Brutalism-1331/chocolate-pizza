@@ -3,15 +3,23 @@
 <head>
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap" rel="stylesheet">
   <title>Chocolate Pizza</title>
 </head>
 <body>
   <header>
-    <img src="/img/logo.png" alt="">
-    <h2>Delicious</h2>
-    <h4 id="header__sub">THE BEST FOOD BLOG ON THE WEB.</h4>
-    <div>
-      <a href="https://www.facebook.com/">
+    <div id="header__left">
+      <img src="/img/logo.png" alt="">
+      <div id="header__text">
+      <h2>Delicious</h2>
+      <h4 id="header__sub">THE BEST FOOD BLOG ON THE WEB.</h4>
+    </div>
+    </div>
+      <div id="links">
+        <a href="https://www.facebook.com/">
       <img src="/img/fb-icon.png" alt="Icon for Facebook"></a>
       <a href="https://www.twitter.com/">
       <img src="/img/twit-icon.png" alt="Icon for Twitter"></a>
@@ -24,16 +32,16 @@
       <a href="https://www.pinterest.com/">
       <img src="/img/pint-icon.png" alt="Icon for Pinterest"></a>
       <a href="/">
-      <img src="/img/rss-icon.png" alt="Icon for Facebook"></a>
+      <img id="link__7" src="/img/rss-icon.png" alt="Icon for Facebook"></a>
       <a href="mailto:ryan@codefellows.com">
       <img src="/img/mail-icon.png" alt="Icon for Facebook"></a>
     </div>
   </header>
-
+  <div id="line__break__one">
+    <!-- This will be that line that stretches the screen -->
+    <span class="line__break"></span>
+  </div>
   <main>
-    <div id="line__break__top">
-      <!-- This will be that line that stretches the screen -->
-    </div>
     <h1>Chocolate Pizza</h1>
     <!-- need to adjust the margin between these two -->
     <h4>Posted on 15 Dec 2013/DESERTS</h4>
@@ -75,8 +83,9 @@
       <li>1 cup honey roasted pecans, roughly chopped</li>
     </ul>
   </div>
-  <div id="line__break__bottom">
+  <div>
     <!-- div for the line break at the bottom -->
+    <span class="line__break"></span>
   </div>
   <div id="author__info">
     <img src="/img/van-pic.png" alt="Profile Picture for Vanessa">

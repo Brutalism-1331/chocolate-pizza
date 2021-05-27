@@ -6,9 +6,56 @@
 body{
   width: 900px;
  margin-left: 178.5px;
+ padding-top: 35px;
 }
 
 #line__break__top {
   background-color: black;
   background-image: url(/img/hr-img.png);
 }
+
+h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: xx-large;
+}
+
+#header__sub {
+  font-family: 'Barlow', sans-serif;
+  font-size: xx-small;
+}
+
+#header__left {
+  float: left;
+}
+
+#header__text {
+  display: inline-block;
+}
+
+#links {
+  float: right;
+}
+
+.line__break {
+  clear: both;
+  background-image: url(../img/hr-img.png);
+  display: block;
+  padding: 6px 0px;
+  margin: 20px 0px;
+ background-repeat: repeat-x;
+ 
+ width: 900px;
+}
+
+#link__7 {
+  padding-left: 7px;
+}
+
+/* #line__break__one {
+  margin-top: 60px;
+} */
+
+main {
+  padding-top: 50px;
+}
+
